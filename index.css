@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Inter:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap');
+
+@theme {
+  --color-primary: #2563eb;
+  --color-secondary: #0f172a;
+  --color-accent: #22c55e;
+  --color-bg: #0B1120;
+  --color-surface: #1e293b;
+  --color-text-main: #ffffff;
+  --color-text-muted: #94a3b8;
+  --color-border: #334155;
+  
+  --font-en: "Inter", "Poppins", sans-serif;
+  --font-ar: "Cairo", sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text-main);
+}
+
+[dir="ltr"] {
+  font-family: var(--font-en);
+}
+
+[dir="rtl"] {
+  font-family: var(--font-ar);
+}
+
